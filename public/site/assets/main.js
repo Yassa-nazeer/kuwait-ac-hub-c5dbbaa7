@@ -20,14 +20,14 @@ window.addEventListener('load',()=>{
 
 // Scroll progress + back to top
 const sp=document.querySelector('.scroll-progress');
-const top=document.querySelector('.fab-top');
+const topBtn=document.querySelector('.fab-top');
 window.addEventListener('scroll',()=>{
   const h=document.documentElement;
   const pct=(h.scrollTop/(h.scrollHeight-h.clientHeight))*100;
   if(sp) sp.style.width=pct+'%';
-  if(top) top.classList.toggle('show',h.scrollTop>500);
+  if(topBtn) topBtn.classList.toggle('show',h.scrollTop>500);
 });
-top && top.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+topBtn && topBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
 
 // Reveal on scroll
 const io=new IntersectionObserver(es=>{
