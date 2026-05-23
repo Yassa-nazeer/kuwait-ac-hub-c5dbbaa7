@@ -1,14 +1,8 @@
-// Loader
-window.addEventListener('load',()=>{
-  const l=document.querySelector('.loader');
-  if(l) setTimeout(()=>l.classList.add('hidden'),500);
-});
-
 // Particles
 (function(){
   const p=document.querySelector('.particles');
   if(!p) return;
-  for(let i=0;i<28;i++){
+  for(let i=0;i<10;i++){
     const s=document.createElement('span');
     s.style.left=Math.random()*100+'%';
     s.style.animationDuration=(8+Math.random()*14)+'s';
@@ -21,12 +15,18 @@ window.addEventListener('load',()=>{
 // Scroll progress + back to top
 const sp=document.querySelector('.scroll-progress');
 const topBtn=document.querySelector('.fab-top');
+let ticking=false;
 window.addEventListener('scroll',()=>{
+  if(ticking) return;
+  ticking=true;
+  requestAnimationFrame(()=>{
   const h=document.documentElement;
   const pct=(h.scrollTop/(h.scrollHeight-h.clientHeight))*100;
   if(sp) sp.style.width=pct+'%';
   if(topBtn) topBtn.classList.toggle('show',h.scrollTop>500);
-});
+  ticking=false;
+  });
+},{passive:true});
 topBtn && topBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
 
 // Reveal on scroll
