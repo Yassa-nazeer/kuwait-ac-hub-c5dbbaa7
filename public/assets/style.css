@@ -436,6 +436,7 @@ footer::before{
   .cta-banner{padding:40px 22px}
   body{padding-bottom:80px}
   .mobile-bar{display:flex}
-  .fab-wa{bottom:84px}
-  .fab-call{bottom:154px}
+  .fab-wa{bottom:84px;right:14px}
+  .fab-call{bottom:84px;left:14px}
+  .fab-top{bottom:160px;left:14px}
 }
