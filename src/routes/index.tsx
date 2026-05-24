@@ -7,7 +7,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   useEffect(() => {
-    window.location.replace("/site/index.html");
+    window.location.replace("/index.html");
   }, []);
   return (
     <div style={{ minHeight: "100vh", background: "#04070d", color: "#e8f1ff", display: "grid", placeItems: "center", fontFamily: "system-ui" }}>

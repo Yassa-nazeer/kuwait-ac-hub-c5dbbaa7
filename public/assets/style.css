@@ -353,16 +353,16 @@ footer::before{
 
 /* Floating action buttons */
 .fab{
-  position:fixed;right:18px;z-index:999;width:58px;height:58px;border-radius:50%;
+  position:fixed;z-index:999;width:60px;height:60px;border-radius:50%;
   display:grid;place-items:center;color:#fff;font-size:26px;
   box-shadow:0 12px 30px rgba(0,0,0,.5);transition:.3s;
 }
 .fab:hover{transform:scale(1.08)}
-.fab-wa{bottom:24px;background:linear-gradient(135deg,#25d366,#128c45);animation:wapulse 2s infinite}
-.fab-call{bottom:96px;background:linear-gradient(135deg,#ff5e62,#ff9966)}
+.fab-wa{right:20px;bottom:24px;background:linear-gradient(135deg,#25d366,#128c45);animation:wapulse 2s infinite}
+.fab-call{left:20px;bottom:24px;background:linear-gradient(135deg,#ff5e62,#ff9966)}
 @keyframes wapulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.6)}100%{box-shadow:0 0 0 20px rgba(37,211,102,0)}}
 .fab-top{
-  position:fixed;left:18px;bottom:24px;z-index:999;width:48px;height:48px;border-radius:50%;
+  position:fixed;left:20px;bottom:100px;z-index:999;width:46px;height:46px;border-radius:50%;
   background:var(--panel-strong);border:1px solid var(--border);color:#fff;
   display:none;place-items:center;font-size:18px;backdrop-filter:blur(10px);
 }
@@ -436,6 +436,7 @@ footer::before{
   .cta-banner{padding:40px 22px}
   body{padding-bottom:80px}
   .mobile-bar{display:flex}
-  .fab-wa{bottom:84px}
-  .fab-call{bottom:154px}
+  .fab-wa{bottom:84px;right:14px}
+  .fab-call{bottom:84px;left:14px}
+  .fab-top{bottom:160px;left:14px}
 }
