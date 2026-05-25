@@ -8,8 +8,10 @@ function navHTML(active){
     ['about.html','من نحن'],
     ['services.html','خدماتنا'],
     ['split.html','مكيفات سبليت'],
-    ['window.html','مكيفات شباك'],
     ['scrap.html','سكراب المكيفات'],
+    ['furniture.html','الأثاث المستعمل'],
+    ['appliances.html','الأجهزة الكهربائية'],
+    ['moving.html','نقل العفش'],
     ['areas.html','مناطق الخدمة'],
     ['gallery.html','معرض الصور'],
     ['contact.html','اتصل بنا'],
@@ -63,8 +65,9 @@ function footerHTML(){
         <a href="split.html">شراء مكيفات سبليت</a>
         <a href="window.html">شراء مكيفات شباك</a>
         <a href="scrap.html">شراء سكراب المكيفات</a>
-        <a href="services.html">شراء مكيفات مركزية</a>
-        <a href="services.html">فك ونقل المكيفات</a>
+        <a href="furniture.html">شراء الأثاث المستعمل</a>
+        <a href="appliances.html">شراء الأجهزة الكهربائية</a>
+        <a href="moving.html">نقل العفش</a>
       </div>
       <div>
         <h4>تواصل معنا</h4>
