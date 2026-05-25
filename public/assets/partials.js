@@ -89,7 +89,7 @@ function footerHTML(){
 }
 
 function bgHTML(){
-  return `<div class="bg-aurora"></div><div class="bg-grid"></div><div class="particles"></div><div class="scroll-progress"></div>`;
+  return `<div class="scroll-progress"></div>`;
 }
 
 function inject(active){
