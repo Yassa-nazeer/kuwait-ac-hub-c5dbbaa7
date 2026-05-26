@@ -1,19 +1,19 @@
-/* === الكويت لشراء المكيفات المستعملة — Light, Mobile-First === */
+/* === الساحل الشمالي — Dark Teal Theme, Mobile-First === */
 :root{
-  --bg:#f6f9ff;
-  --bg-2:#ffffff;
-  --panel:#ffffff;
-  --panel-2:#f1f5fb;
-  --border:#e3ebf5;
-  --text:#0f1e36;
-  --muted:#5b6b82;
-  --brand:#0a84ff;
-  --brand-2:#00b5d8;
-  --accent:#ff7a3d;
-  --grad:linear-gradient(135deg,#0a84ff 0%,#00b5d8 100%);
-  --grad-soft:linear-gradient(135deg,#e6f1ff,#e3f8fc);
-  --shadow-sm:0 4px 14px rgba(15,30,54,.06);
-  --shadow:0 10px 30px rgba(15,30,54,.08);
+  --bg:#061018;
+  --bg-2:#0a1924;
+  --panel:#0d1b2a;
+  --panel-2:#11263a;
+  --border:#1c3349;
+  --text:#e6f6f5;
+  --muted:#8aa3b3;
+  --brand:#14e0d0;
+  --brand-2:#5eead4;
+  --accent:#14e0d0;
+  --grad:linear-gradient(135deg,#14e0d0 0%,#5eead4 100%);
+  --grad-soft:linear-gradient(135deg,rgba(20,224,208,.14),rgba(94,234,212,.10));
+  --shadow-sm:0 4px 14px rgba(0,0,0,.35);
+  --shadow:0 10px 30px rgba(0,0,0,.45);
   --radius:16px;
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}

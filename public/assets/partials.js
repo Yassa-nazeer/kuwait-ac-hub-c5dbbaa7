@@ -1,6 +1,7 @@
 // Shared header/footer markup injected into pages
 const PHONE = '65954080';
 const WA = 'https://wa.me/96565954080?text=' + encodeURIComponent('السلام عليكم، أرغب ببيع مكيفات مستعملة');
+const BRAND = 'الساحل الشمالي';
 
 function navHTML(active){
   const links = [
@@ -9,6 +10,7 @@ function navHTML(active){
     ['services.html','خدماتنا'],
     ['split.html','مكيفات سبليت'],
     ['scrap.html','سكراب المكيفات'],
+    ['aluminum.html','الألمنيوم والمطابخ'],
     ['furniture.html','الأثاث المستعمل'],
     ['appliances.html','الأجهزة الكهربائية'],
     ['moving.html','نقل العفش'],
@@ -20,8 +22,8 @@ function navHTML(active){
   <nav class="nav">
     <div class="nav-inner">
       <a href="index.html" class="brand">
-        <div class="logo">❄</div>
-        <div class="name">الكويت لشراء المكيفات<small>شراء فوري — دفع نقدي</small></div>
+        <div class="logo">س</div>
+        <div class="name">${BRAND}<small>المستعملة والسكراب — رقم 1 في الكويت</small></div>
       </a>
       <div class="nav-links">
         ${links.map(([h,t])=>`<a href="${h}" class="${active===h?'active':''}">${t}</a>`).join('')}
@@ -41,8 +43,8 @@ function footerHTML(){
     <div class="foot-grid">
       <div>
         <div class="brand">
-          <div class="logo">❄</div>
-          <div class="name">الكويت لشراء المكيفات<small>الشريك الأول في الكويت</small></div>
+          <div class="logo">س</div>
+          <div class="name">${BRAND}<small>الشريك الأول في الكويت</small></div>
         </div>
         <p style="margin-top:14px">نقوم بشراء جميع أنواع المكيفات المستعملة وسكراب المكيفات في جميع مناطق الكويت بأفضل الأسعار، مع خدمة فك ونقل مجانية ودفع نقدي فوري.</p>
         <div class="socials">
@@ -65,6 +67,7 @@ function footerHTML(){
         <a href="split.html">شراء مكيفات سبليت</a>
         <a href="window.html">شراء مكيفات شباك</a>
         <a href="scrap.html">شراء سكراب المكيفات</a>
+        <a href="aluminum.html">المطابخ والألمنيوم</a>
         <a href="furniture.html">شراء الأثاث المستعمل</a>
         <a href="appliances.html">شراء الأجهزة الكهربائية</a>
         <a href="moving.html">نقل العفش</a>
