@@ -1,19 +1,19 @@
-/* === الساحل الشمالي — Dark Teal Theme, Mobile-First === */
+/* === الساحل الشمالي — Soft Teal Theme, Mobile-First === */
 :root{
-  --bg:#061018;
-  --bg-2:#0a1924;
-  --panel:#0d1b2a;
-  --panel-2:#11263a;
-  --border:#1c3349;
-  --text:#e6f6f5;
-  --muted:#8aa3b3;
-  --brand:#14e0d0;
-  --brand-2:#5eead4;
-  --accent:#14e0d0;
-  --grad:linear-gradient(135deg,#14e0d0 0%,#5eead4 100%);
-  --grad-soft:linear-gradient(135deg,rgba(20,224,208,.14),rgba(94,234,212,.10));
-  --shadow-sm:0 4px 14px rgba(0,0,0,.35);
-  --shadow:0 10px 30px rgba(0,0,0,.45);
+  --bg:#0f2230;
+  --bg-2:#152c3d;
+  --panel:#1a3447;
+  --panel-2:#21405a;
+  --border:#2c5774;
+  --text:#eaf6f6;
+  --muted:#a8c0d0;
+  --brand:#3ee6d6;
+  --brand-2:#7fefe0;
+  --accent:#3ee6d6;
+  --grad:linear-gradient(135deg,#3ee6d6 0%,#7fefe0 100%);
+  --grad-soft:linear-gradient(135deg,rgba(62,230,214,.18),rgba(127,239,224,.12));
+  --shadow-sm:0 4px 14px rgba(0,0,0,.25);
+  --shadow:0 10px 30px rgba(0,0,0,.35);
   --radius:16px;
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}

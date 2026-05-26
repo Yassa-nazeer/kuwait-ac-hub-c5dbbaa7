@@ -50,8 +50,6 @@ function footerHTML(){
         <div class="socials">
           <a href="${WA}" aria-label="واتساب">💬</a>
           <a href="tel:${PHONE}" aria-label="اتصال">📞</a>
-          <a href="#" aria-label="انستغرام">📷</a>
-          <a href="#" aria-label="تويتر">🐦</a>
         </div>
       </div>
       <div>
